@@ -15,7 +15,7 @@ const (
 )
 
 var restabnew = []string{"Amount of edges", "Amount of vertex", "Path to graph", "Path to result", "time", "result", "mark"}
-var restabold = []string{"Amount of edges", "Amount of vertex", "Path to graph", "Path to result", "time", "result"}
+var restabold = []string{"Amount of edges", "Amount of vertex", "Path to graph", "Path to result", "time"}
 var advtime = []string{"size", "mark time", "overall"}
 
 func main() {
