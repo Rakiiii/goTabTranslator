@@ -16,7 +16,7 @@ const (
 
 var restabnew = []string{"Amount of edges", "Amount of vertex", "Path to graph", "Path to result", "time", "result", "mark"}
 var restabold = []string{"Amount of edges", "Amount of vertex", "Path to graph", "Path to result", "time", "result"}
-var advtime = []string{"mark time", "overall"}
+var advtime = []string{"size", "mark time", "overall"}
 
 func main() {
 	walkDir := os.Args[1]
