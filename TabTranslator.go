@@ -33,8 +33,10 @@ func checkFile(path string, info os.FileInfo, err error) error {
 	switch info.Name() {
 	case ResultTab:
 		translateToCsv(path, false)
+		log.Println("Translated:", path)
 	case AdvTimeTab:
 		translateToCsv(path, true)
+		log.Println("Translated:", path)
 	default:
 		return nil
 	}
